@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Join Online</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Montserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background: linear-gradient(to bottom, #D94498 50%, #ffdd00 50%);
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 420px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .description-box {
+      background-color: #00BBFF;
+      padding: 40px 20px;
+      border-radius: 12px;
+      border: 3px solid #092A49;
+      margin-bottom: 24px;
+      width: 100%;
+      box-sizing: border-box;
+      flex-shrink: 0;
+    }
+
+    .description-box p {
+      padding: 0 20px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    h1 {
+      font-weight: 800;
+      letter-spacing: 2px;
+      font-size: 28px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    .description {
+      font-weight: 500;
+      text-transform: lowercase;
+      color: #0B5394;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 12px;
+      background: #ff9900;
+      color: #0B5394;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      box-sizing: border-box;
+      border: 3px solid #092A49;
+      white-space: nowrap;
+      max-width: 420px;
+      flex-shrink: 0;
+    }
+
+    .button:hover {
+      background: #e68a00;
+    }
+
+    @media (max-width: 600px) {
+      .description-box {
+        padding: 20px 12px;
+      }
+
+      .description-box p {
+        padding: 0 12px;
+        font-size: 13px;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin-bottom: 12px;
+      }
+
+      .button {
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="description-box">
+    <h1>JOIN ONLINE</h1>
+    <p class="description">
+      to attend an online group class, please submit your zoom registration at least 3 hours in advance. rsvps received later may not guarantee attendance. each session requires a separate registration. once approved, you will receive the zoom link and check-in form details via your registration email.
+    </p>
+  </div>
+
+  <a class="button" href="https://us06web.zoom.us/meeting/register/WbtZ27yAR_y9R4Pjbx_u7g#/registration">
+    REGISTER FOR TUESDAY 7 PM CT
+  </a>
+
+  <a class="button" href="https://us06web.zoom.us/meeting/register/S293sGfuSeqUcAmKqQNQ0A#/registration">
+    REGISTER FOR SATURDAY 11 AM CT
+  </a>
+</div>
+
+</body>
+</html>
